@@ -1,0 +1,4 @@
+CPU
+Tarjeta Madre
+Memoria RAM
+
