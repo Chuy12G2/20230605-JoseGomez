@@ -1,0 +1,45 @@
+  351  mkdir 20230605-JoseGomez
+  352  cd 20230605-JoseGomez/
+  353  git init
+  354  git remote add origin git@github.com:Chuy12G2/20230605-JoseGomez.git
+  355  git remote -v
+  356  touch comandos.txt main.js index.html
+  357  git add .
+  358  git status
+  359  git commit -m 'commit 01 de JoseGomez'
+  360  git push origin main
+  361  git checkout -b feature01
+  362  mkdir Terminal Hardware
+  363  ls
+  364  touch resumen.txt
+  365  ls
+  366  cp resumen.txt Hardware/ Terminal/
+  367  ls -R
+  368  mv resumen.txt Hardware/
+  369  ls
+  370  ls -R
+  371  git add .
+  372  git commit -m 'commit 02 de JoseGomez'
+  373  git push origin feature01
+  374  git checkout -b feature02
+  375  ls
+  376  ls -R
+  377  ls
+  378  cd Hardware/
+  379  ls
+  380  code resumen.txt
+  381  cd ../Terminal/
+  382  ls
+  383  code resumen.txt
+  384  cd ..
+  385  ls -R
+  386  git add .
+  387  git status
+  388  git commit -m 'commit 03 de JoseGomez'
+  389  git push origin feature03
+  390  git push origin feature02
+  391  git branch main
+  392  git checkout main
+  393  mv comandos.txt comandosUtilizados.txt
+  394  ls
+  395  history
